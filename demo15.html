@@ -1,0 +1,59 @@
+<html>
+<head>
+<link href="CSS/bootstrap.css"rel="stylesheet"/>
+<link href="CSS/all.css"rel="stylesheet"/>
+<style>
+:root{
+--bgcolor:linear-gradient(45deg,#abdf49,#1a8519);
+}
+body{
+background:var(--bgcolor);
+}
+.login{
+background:#e8e8ff;
+min-height:200px;
+border-radius:5px;
+margin-top:10%;+
+}
+.b
+{
+background:var(--bgcolor);
+color:white;
+}
+.text-mycolor{
+color:#2a8f1e !important;
+}
+.form-control
+{
+height:50px;
+}
+.text-bg-mycolor
+{
+background:var(--bgcolor)!important;
+color:white !important;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row">
+<div class="col-sm-3"></div>
+<div class="col-sm-6 mx-auto login p-4">
+<div class="fs-2 text-center"> Admin <b class="text-mycolor">Login<i class="fa-solid fa-key"></i></b></div>
+<form>
+<div class="input-group mt-3">
+<span class="input-group-text text-bg-dark"><i class="fa-regular fa-user"></i></span>
+<input type="email"placeholder="Username required "class="form-control"/>
+</div>
+<div class="input-group my-3">
+<span class="input-group-text text-bg-dark"><i class="fa-solid fa-lock"></i></span>
+<input type="password"placeholder="password required" class="form-control"/>
+</div>
+<input type="submit"class="btn btn-dark form-control"value="Loging">
+</form>
+</div>
+<div class="col-sm-3"></div>
+</div>
+</div>
+</body>
+</html>	
