@@ -1,0 +1,413 @@
+<html>
+<head>
+<link href="CSS/bootstrap.css"rel="stylesheet"/>
+<link href="CSS/all.css"rel="stylesheet"/>
+<script src="JS/bootstrap.bundle.js"></script>
+<style>
+:root{
+--mycolor:#ffa6a6;
+}
+.text-mycolor{
+color:var(--mycolor)!important;
+}
+.bg-mycolor{
+background:var(--mycolor)!important;
+}
+.text-bg-mycolor{
+background:var(--mycolor)!important;
+color:white !important;
+}
+.t1{
+background:rgba(0,0,0,.85);
+color:#62b8ff;
+font-size:13px;
+}
+.ic{
+height:25px;
+width:25px;
+padding:1%;
+transition:.5s;
+border-radius:3px;
+}
+.ic:hover{
+background:var(--mycolor);
+transition:.5s;
+transform:rotate(360deg);
+}
+.header{
+background:#e8e8ff;
+min-height:45px;
+
+}
+#menu ul li a:hover{
+color:var(--mycolor);
+transition:all .8s;
+}
+.services{
+min-height:200px;
+background:#e7e7fe;
+}
+.s{
+min-height:150px;
+background:#fff;
+border-radius:5px;
+text-align:center;
+font-size:22px;
+padding-top:17%;
+box-shadow:0px 0px 30px 5px #bfbfbf;
+}
+.aboutus{
+text-align:justify;
+}
+.team{
+min-height:200px;
+background:#e7e7fe;
+}
+.contactus{
+min-height:500px;
+}
+.footer{
+min-height:300px;
+background:#ffc90f;
+}
+.if{
+ height:50px;
+ width:50px;
+background:black;
+border-radius:50%;
+color:white;
+padding:13px;
+font-size:25px;
+}
+p a{
+text-decoration:none;
+color:white;
+}
+.h
+{
+font-size:30px;
+text-align:center;
+color:black;
+}
+.v
+{
+width:90%;
+height:45px;
+background:white;
+border:1px solid black;
+margin-bottom:10px;
+margin-left:10px;
+margin-top:10px;
+font-size:18px;
+padding-left:15px;
+box-sizing:border-box;
+border-radius:5px;
+color:white;
+}
+.p
+{
+width:30%;
+height:45px;
+border:none;
+margin-bottom:10px;
+font-size:18px;
+padding-left:15px;
+box-sizing:border-box;
+border-radius:5px;
+text-align:center;
+color:white;
+}
+.register{
+min-height:300px;
+background:#d2a6a6;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row t1 py-1 text-center">
+<div class="col-sm-3">
+<i class="fa-solid fa-phone ic"></i>
++8765218819 ||8765218820
+</div>
+<div class="col-sm-3">
+<i class="fa-solid fa-envelope ic"></i>
+preety@gmail.com
+</div>
+<div class="col-sm-3"></div>
+<div class="col-sm-3">
+<i class="fa-brands fa-facebook ic"></i>
+<i class="fa-brands fa-twitter ic"></i>
+<i class="fa-brands fa-youtube ic"></i>
+<i class="fa-brands fa-facebook ic"></i>
+</div>
+</div>
+<div class="row header">
+<div class="col-sm-4 logo">
+<div class="text-center fs-3">Techpile <b class="text-mycolor">stack <i class="fa-solid fa-laptop"></i></b></div>
+</div>
+<div class="col-sm-8 menu">
+<!--start menu-->
+<nav class="navbar navbar-expand-lg m-0 p-0"id="menu">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa-solid fa-address-card"></i> About us</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa-brands fa-servicestack"></i> Services</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">Our</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">Sign up</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gallery
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Image gallery</a></li>
+            <li><a class="dropdown-item" href="#">Video gallery</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+<!--end menu-->
+</div>
+<div class="row">
+<div class="col-sm-8 slider p-0">
+<!--start menu-->
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade"data-bs-slide="carousel"data-bs-interval="2000">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="IMAGES/img21.jpg"style="max-height:500px" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>This is my first image</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES/img25.WEBP"style="max-height:500px" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>This is my second image</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="IMAGES/img21.jpg"style="max-height:500px" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>This is my first image Third</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+	<div class="carousel-item">
+      <img src="IMAGES/img24.jpg"style="max-height:500px" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>This is my first image Third</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--end menu-->
+</div>
+<div class="col-sm-4 enquiry bg-mycolor p-2"><h2 class="text-center">Enquiry<b class="text-mycolor"> Form</b></h2>
+<form>
+Name
+<div class="input-group mt-3">
+<span class="input-group-text text-bg-primary"><i class="fa-regular fa-user"></i></span>
+<input type="text"placeholder="Username required "class="form-control"/>
+</div>
+<span>Email</span>
+<div class="input-group my-3">
+<span class="input-group-text text-bg-primary"><i class="fa-solid fa-lock"></i></span>
+<input type="Email"placeholder="email required" class="form-control"/>
+</div>
+Mobile
+<div class="input-group my-3">
+<span class="input-group-text text-bg-primary"><i class="fa-solid fa-phone"></i></span>
+<input type="text"placeholder="+91" class="form-control"/>
+</div>
+message
+<div class="input-group my-3">
+<span class="input-group-text text-bg-primary"><i class="fa-solid fa-message"></i></span>
+<textarea class="form-control"></textarea>
+</div>
+<input type="submit"class="btn btn-primary"value="save">
+</form>
+</div>
+</div>
+<div class="row services py-3">
+<div class="col-sm-2"></div>
+<div class="col-sm-8">
+<div class="text-center fs-3">OUR <b class="text-mycolor">SERVICESS</b></div>
+<div class="row">
+<div class="col-sm-4">
+<p class="s"><i class="fa-solid fa-laptop"></i><br/>Software development</p>
+</div>
+<div class="col-sm-4">
+<p class="s"><i class="fa-solid fa-graduation-cap"></i><br/>Software Traning</p>
+</div>
+<div class="col-sm-4">
+<p class="s"><i class="fa-solid fa-laptop"></i><br/>SEO Services</p>
+</div>
+</div>
+</div>
+<div class="col-sm-2"></div>
+</div>
+<div class="row aboutus py-5">
+<div class="text-center fs-3">About<b class="text-mycolor"> Us</b></div>
+<div class="row">
+<div class="col-sm-2"></div>
+<div class="col-sm-8 mx-auto">
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random 
+text. It has roots in a piece of classical Latin literature from 45 
+BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney 
+College in Virginia, looked up one of the more obscure Latin words, consectetur
+, from a Lorem Ipsum passage, and going through the cites of the word in classical
+ literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 
+ 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written 
+ in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+ The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+ below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" 
+ by Cicero are also reproduced in their exact
+ original form, accompanied by English versions from the 1914 translation by H. Rackham.
+</div>
+<div class="col-sm-2"></div>
+</div>
+</div>
+<div class="row register">
+<div class="text-center fs-3 fw-bold">Registration <b class="text-danger">Form</b> <i class="fa-solid fa-address-card text-danger"></i></div><br/>
+<div class="col-6 pt-5">
+<div class="row">
+<div class="col-sm-2"></div>
+<div class="col-sm-8 pt-5 ps-5"><img src="IMAGES/img29.jpg" style="height:400px;width:600px;"class="img-fluid"></div>
+<div class="col-sm-2"></div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="text-center fs-3 fw-bold">Login <b class="text-info">Form</b></div><br/>
+<input class="v"type="tex"placeholder="Login"/> <input class="v" type="text"placeholder="signup"><br/><br/>
+<input class="v" type="text"placeholder="Enail address"><br><br/>
+<input class="v" type="text"placeholder="Password">
+<div><font style="color:#e80074;padding-left:10px;">Forgot password?</font></div><br/>
+<input class=" bg-info p" type="tex"placeholder="Login"/><br><br>
+<p class="fs-5">Not a member?<b class="text-info">Signup Now</b></p>
+</div>
+</div>
+<div class="row gallery bg-mycolor py-4">
+<div class="text-center fs-3">Image<b class="text-light"> Gallery</b></div>
+<div class="row">
+<div class="col-sm-2"></div>
+<div class="col-sm-8">
+<div class="row gx-4 gy-4">
+<div class="col-sm-4"><img src="IMAGES/img19.WEBP"class="img-fluid"></div>
+<div class="col-sm-4"><img src="IMAGES/img19.WEBP"class="img-fluid"></div>
+<div class="col-sm-4"><img src="IMAGES/img19.WEBP"class="img-fluid"></div>
+<div class="col-sm-4"><img src="IMAGES/img19.WEBP"class="img-fluid"></div>
+<div class="col-sm-4"><img src="IMAGES/img19.WEBP"class="img-fluid"></div>
+<div class="col-sm-4"><img src="IMAGES/img19.WEBP"class="img-fluid"></div>
+</div>
+</div>
+<div class="col-sm-2"></div>
+</div>
+</div>
+<div class="row team"></div>
+<div class="row contactus"></div>
+<div class="row footer">
+<div class="row">
+<div class="col-sm-2 text-center text-light fs-3 ps-3 py-3 fw-bold">Learning Rabo</div>
+<div class="col-sm-5"></div>
+<div class="col-sm-5 text-center text-light fs-3 ps-5 py-3">
+<i class="fa-brands fa-facebook if text-bg-primary"></i>
+<i class="fa-brands fa-twitter if text-bg-danger"></i>
+<i class="fa-brands fa-instagram if text-bg-primary"></i>
+<i class="fa-brands fa-linkedin if text-bg-danger"></i>
+<i class="fa-brands fa-youtube if text-bg-primary"></i>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-1"></div>
+<div class="col-sm-10">
+<div class="row">
+<div class="col-sm-3">
+<p class="text-light fw-bold fs-4">
+<u>link</u>s
+</p>
+<p><a href="#">Home</a></p>
+<p><a href="#">Contactus</a></p>
+<p><a href="#">Aboutus</a></p>
+<p><a href="#">Get started</a></p>
+</div>
+<div class="col-sm-3"><p class="text-light fw-bold fs-4">
+<u>Serv</u>ices
+</p>
+<p><a href="#">App Design</a></p>
+<p><a href="#">Web Design</a></p>
+<p><a href="#">Logo Design</a></p>
+<p><a href="#">App Design</a></p></div>
+<div class="col-sm-3"><p class="text-light fw-bold fs-4">
+<u>Oth</u>er services
+</p>
+<p><a href="#">SEO</a></p>
+<p><a href="#">Contactus</a></p>
+<p><a href="#">Aboutus</a></p>
+<p><a href="#">Get started</a></p></div>
+<div class="col-sm-3"><p class="text-light fw-bold fs-4">
+<u>Con</u>tact
+</p>
+<p><a href="#">+919161196898</a></p>
+<p><a href="#">+918765218819</a></p>
+<p><a href="#">@preety@gmail</a></p>
+</div>
+</div>
+<div class="col-sm-1"></div>
+</div>
+<div class="row">
+<div class="col-sm-3 text-center text-light fs-5 ps-3 py-3">
+<p class="text-light">Copyright c2021 laring logo</p>
+</div>
+<div class="col-sm-6"></div>
+<div class="col-sm-3 text-center text-light fs-5 ps-3 py-3">
+<p class="text-light">privacy policy</p>
+<p class="text-light">Back with <i class="fa-solid fa-heart text-danger"></i> by touching </p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>	
